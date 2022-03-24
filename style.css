@@ -198,3 +198,23 @@ body {
     color: white;
     background: black;
 }
+
+
+/* RODAPÉ - NÃO MEXER NISSO */
+
+.rodixd {
+    color: red;
+    text-align: right;
+    background: green;
+}
+
+#rodapeid {
+    position: fixed;
+    color: black;
+    background: white;
+    padding: 10px;
+    bottom: 0;
+    right: 25%;
+    left: 25%;
+    text-align: center;
+}
