@@ -9,7 +9,20 @@ body {
 }
 
 
-/* BOTÃO */
+/* FLEX BOX */
+
+.flex-container {
+    display: inline-flex;
+    background-color: yellow;
+}
+
+.flex-container>div {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
 
 
 /* CABEÇALHO DO HTML - NÃO MEXE NESSA MISÉRIA */
