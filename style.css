@@ -1,14 +1,32 @@
+/* BODY DO HTML - NÃO MEXE NESSA MISÉRIA */
+
 body {
-    background: white/*#4B0082*/
-    scroll;
-    font: 16px Arial, "Times New Roman", sans-serif;
-    margin: 100px;
+    background: white;
+    font-family: "Times New Roman", Arial, serif;
+    padding: 15px;
+    text-align: center;
+    color: black;
 }
+
+
+/* CABEÇALHO DO HTML - NÃO MEXE NESSA MISÉRIA */
+
+#cabecalho {
+    /*background: #060606*/
+    font-size: 1.3em;
+    color: blue;
+    border: 2px red;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+/* RODAPÉ DO GITHUB - NÃO MEXE NESSA MISÉRIA - #PLS*/
 
 .classe {
     text-align: center;
     color: red;
-    font-size: 3em;
+    font-size: 1em;
 }
 
 .container {
@@ -34,6 +52,7 @@ body {
     position: fixed;
     bottom: 0px;
     right: 0px;
+    border-radius: 100%;
 }
 
 .container:hover .image {
@@ -48,6 +67,20 @@ body {
     background-color: black;
     color: white;
     font-size: 16px;
-    padding: 16px;
-    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.text a:link,
+.text a:visited {
+    color: white;
+    background: black;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.text a:hover {
+    /*text-decoration: line-through;*/
+    color: black;
+    background: white;
 }
