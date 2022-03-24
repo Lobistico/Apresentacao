@@ -1,0 +1,53 @@
+body {
+    background: white/*#4B0082*/
+    scroll;
+    font: 16px Arial, "Times New Roman", sans-serif;
+    margin: 100px;
+}
+
+.classe {
+    text-align: center;
+    color: red;
+    font-size: 3em;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 50%;
+}
