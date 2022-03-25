@@ -47,21 +47,38 @@ body {
     width: auto;
     text-align: center;
 }
+.text_div:hover{
+    cursor:pointer;
+    background-color: #0a0a0a;
+    color: white;
+    transition: .2s;
+}
+.text_div:hover a{
+    position: relative;
+    top: -10px;
+    color: white;
 
-.text_div a:link,
+    transition: ease .32s;
+}
+a{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+/* .text_div a:link,
 .text_div a:visited {
-    /*color: white;
-    background: black;*/
+    color: white;
+    background: black;
     color: black;
     padding: 1% 1%;
     text-decoration: none;
-}
+} */
 
-.text_div a:hover {
-    /*text-decoration: line-through;*/
+/* .text_div a:hover {
+    text-decoration: line-through;
     color: white;
     background: black;
-}
+} */
 
 
 /* CABEÇALHO DO HTML - NÃO MEXE NESSA MISÉRIA */
@@ -129,17 +146,17 @@ body {
     text-align: center;
 }
 
-.text a:link,
+/* .text a:link,
 .text a:visited {
-    /*color: white;
-    background: black;*/
+    color: white;
+    background: black;
     color: black;
     padding: 7% 7%;
     text-decoration: none;
 }
 
 .text a:hover {
-    /*text-decoration: line-through;*/
+    text-decoration: line-through;
     color: white;
     background: black;
-}
+} */
