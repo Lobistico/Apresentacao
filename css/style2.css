@@ -1,7 +1,7 @@
 /* BODY DO HTML - NÃO MEXE NESSA MISÉRIA */
 
 body {
-    background: #ffdf00;
+    background: gold;
     font-family: "Times New Roman", Arial, serif;
     padding: 15px;
     text-align: center;
@@ -47,23 +47,26 @@ body {
     width: auto;
     text-align: center;
 }
-.text_div:hover{
-    cursor:pointer;
+
+.text_div:hover {
+    cursor: pointer;
     background-color: #0a0a0a;
     color: white;
     transition: .2s;
 }
-.text_div:hover a{
+
+.text_div:hover a {
     position: relative;
     top: -10px;
     color: white;
-
     transition: ease .32s;
 }
-a{
+
+a {
     text-decoration: none;
     color: #0a0a0a;
 }
+
 
 /* .text_div a:link,
 .text_div a:visited {
@@ -73,6 +76,7 @@ a{
     padding: 1% 1%;
     text-decoration: none;
 } */
+
 
 /* .text_div a:hover {
     text-decoration: line-through;
@@ -145,6 +149,7 @@ a{
     padding: 1%;
     text-align: center;
 }
+
 
 /* .text a:link,
 .text a:visited {
