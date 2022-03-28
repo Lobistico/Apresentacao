@@ -12,7 +12,7 @@ body {
 }
 
 .title1 {
-    font-size: 3em;
+    font-size: 4em;
     color: black;
     display: block;
     background-color: goldenrod;
@@ -21,7 +21,7 @@ body {
 }
 
 .title2 {
-    font-size: 3em;
+    font-size: 4em;
     color: black;
     display: block;
     background-color: goldenrod;
@@ -32,25 +32,15 @@ body {
 
 /* ANIMAÇÃO DO TEXTO */
 
-li {
+p {
     float: left;
     animation-duration: 3s;
     animation-name: slidein;
     color: black;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    border-radius: 50%;
-    font-size: 2em;
-    background: goldenrod;
+    font-size: 3em;
     list-style: none;
-    margin: 5%;
+    background-color: black;
 }
-
-
-/*
-
- text-align: center;
 
 @keyframes slidein {
     from {
@@ -62,4 +52,4 @@ li {
         width: 200px;
         height: 200px;
     }
-}*/
+}

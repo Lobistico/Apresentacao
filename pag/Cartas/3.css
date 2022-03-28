@@ -2,7 +2,7 @@ body {
     background: black;
     font-family: "Times New Roman", Arial, serif;
     text-align: center;
-    width: 500px;
+    width: auto;
     height: auto;
 }
 
@@ -52,7 +52,7 @@ li {
     font-size: 2em;
     background: goldenrod;
     list-style: none;
-    margin: 5%;
+    margin: 1%;
 }
 
 @keyframes slidein {
